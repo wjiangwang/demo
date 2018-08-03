@@ -6,24 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>皮卡丘</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./default.css">
+    <link href="./vendor/prism.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style id=pikachuStyle></style>
 </head>
 
 <body>
-    <div class=wrapper>
-        <div class="eye-left"></div>
-        <div class="eye-right"></div>
-        <div class="cheeek-left"></div>
-        <div class="cheeek-right"></div>
-        <div class="nose"></div>
-        <div class="lip-left"></div>
-        <div class="lip-right"></div>
-        <div class="mouth-wrapper">
-          <div class="mouth">
-          </div>
+
+    <div id=codeWrapper>
+        <pre id=code></pre>
+        <div class="action">
+                <button data-speed=slow>慢速</button>
+                <button data-speed=middle>中速</button>
+                <button data-speed=fast>快速</button>
+                <button data-speed=skip>跳过</button>
+            </div>
+    </div>
+    
+    
+    <div class="preview">
+        <div class=wrapper>
+            <div class="eye-left"></div>
+            <div class="eye-right"></div>
+            <div class="cheeek-left"></div>
+            <div class="cheeek-right"></div>
+            <div class="nose"></div>
+            <div class="lip-left"></div>
+            <div class="lip-right"></div>
+            <div class="mouth-wrapper">
+                <div class="mouth">
+                </div>
+            </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="./vendor/prism.js"></script>
 </body>
 
 </html>
