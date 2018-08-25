@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(235, 231, 231);
+}
+img{max-width: 100%}
+
+
+.timeline{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    position: relative;
+}
+.wapper{
+    
+    height: 500px;
+    
+}
+.lineBar{
+    top: 80px;
+    height: 380px;
+    background-color: #e8676b;
+    content: '';
+    width: 4px;
+    opacity: 0.2;
+    margin-left: -2px;
+    position: absolute;
+    left: 50%;
+}
+
+.work{
+    position: absolute;
+    width: 50%;
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.work.left{
+    left: 0px;
+    right: auto;
+    top: 0px;
+
+
+}
+.work.right{
+    right: -2px;
+    left: auto;
+    top: 50px;
+}
+
+
+
+.work .dot{
+    background-color: #e8676b;
+    top: 80px;
+    width: 8px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.work.left>.dot{
+    right: 0px;
+    margin-right: -4px;
+}
+
+.work.right>.dot{
+    left: 0px;
+    margin-left: -6px;
+}
+
+.work-inner{
+    padding: 20px 5%;
+    position: relative;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    height: 105px;
+    border-color: #e8676b;
+}
+
+.work-inner.left{
+    margin-right: 35px;
+}
+
+.work-inner.right{
+    margin-left: 35px;
+}
+
+
+
+.work-inner>.arrow{
+    top: 60px;
+    position: absolute;
+    background-image: url(img/arrows.png);
+
+}
+
+.work-inner.left>.arrow{
+    right: -12px;
+    background-position: -18px 0;
+}
+.work-inner.right>.arrow{
+    left: -12px;
+}
+
+.work-inner>.arrow::before{
+    content: '';
+    display: block;
+}
+
+.work-inner.left>.arrow::before{
+    margin-right: 2px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 10px solid #fff;
+
+}
+.work-inner.right>.arrow::before{
+    margin-left: 2px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 10px solid #fff;
+}
+
+
+
+
+
+
+
+.work-inner>.date{
+    color: #e8676b;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+}
+.work-inner.right>.date{
+    color: #e8676b;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+.work-inner>h3{
+    text-align: left;
+    color: #414141;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 15px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
